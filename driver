@@ -1,0 +1,14 @@
+public class Driver {
+    public static void main(String[] args) {
+        jerapah k = new jerapah("meo", 4, "Meong meong", "putih");
+        k.displayData();
+        System.out.println();
+        tikus g = new tikus("jerry", 4, "cit cit", "Abu-abu");
+        g.displayData();
+        System.out.println();
+        singa b = new singa("leo", 4, "rawr rawr", "Coklat");
+        b.displayData();
+        System.out.println();
+
+    }
+}
