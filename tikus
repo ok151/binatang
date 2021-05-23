@@ -1,0 +1,31 @@
+public class tikus extends binatang implements omnivora{
+    private String suara;
+    private String warnaBulu;
+    private String jenisK;
+    private String makananS;
+
+    public tikus(String nama, int jmlKaki, String suara, String warnaBulu){
+        super(nama, jmlKaki);
+        this.suara=suara;
+        this.warnaBulu=warnaBulu;
+    }
+
+    public tikus(String nama, int jmlKaki) {
+        super(nama, jmlKaki);
+    }
+
+    public void displayMakan(){
+        System.out.println("Jenis: "+jenisO);
+        System.out.println("Makanan: "+makananO);
+    }
+    public void displayBinatang(){
+        System.out.println("Nama: "+getNama());
+        System.out.println("Jumlah Kaki: "+getKaki());
+    }
+    public void displayData(){
+        displayMakan();
+        displayBinatang();
+        System.out.println("Suara: "+suara);
+        System.out.println("Warna Bulu: "+warnaBulu);
+    }
+}
