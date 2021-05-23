@@ -1,0 +1,5 @@
+public interface karnivora {
+    public String jenisK="Karnifora";
+    public String makananK="Daging";
+    public void displayMakan();
+}
