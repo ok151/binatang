@@ -1,0 +1,5 @@
+public interface omnivora{
+    public String jenisO="omnivora";
+    public String makananO="segala";
+    public void displayMakan();
+}
