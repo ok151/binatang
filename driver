@@ -1,6 +1,6 @@
 public class Driver {
     public static void main(String[] args) {
-        jerapah k = new jerapah("meo", 4, "Meong meong", "putih");
+        jerapah k = new jerapah("grief", 4, "tidak bersuara", "coklat bintik bintik");
         k.displayData();
         System.out.println();
         tikus g = new tikus("jerry", 4, "cit cit", "Abu-abu");
