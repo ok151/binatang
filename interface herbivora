@@ -1,0 +1,5 @@
+public interface herbivora {
+    public String jenisH="Herbivora";
+    public String makananH="Tumbuhan";
+    public void displayMakan();
+}
